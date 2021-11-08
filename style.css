@@ -1,0 +1,14 @@
+html{
+    background-color: rgb(255, 182, 46);
+    font-family: 'Shadows Into Light', cursive;
+}
+h1{
+    text-align:center;
+    margin:250px auto;
+    font-size: 60px;
+}
+h2{
+    text-align:center;
+    font-size: 40px;
+    
+}
