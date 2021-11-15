@@ -1,26 +1,37 @@
 html{
-    background: rgb(252,121,0);
-background: linear-gradient(90deg, rgba(252,121,0,1) 0%, rgba(255,210,176,1) 100%);
+    background: rgb(252,143,0);
+background: linear-gradient(90deg, rgba(252,143,0,1) 0%, rgba(0,3,131,1) 100%);
     font-family: 'Shadows Into Light', cursive;
 }
 h1{
     text-align:center;
     margin:250px auto;
     font-size: 60px;
+    position:relative;
+    top: -150px;
+    left: -270px;
 }
 h2{
     text-align:center;
-    font-size: 40px;
-    margin: -200px auto
-    
+    font-size: 60px;
+    margin: -200px auto;
+    position:relative;
+    top:-300px;
+    left:300px;
+}
+h3{
+    font-size: 60px;
+    text-align:center;
+    position:relative;
+    top: 60px;
 }
 div{
     height:180px;
     width:180px ;
     border:1px solid black;
     position: relative;
-    top:270px;
-    right:-440px
+    top:100px;
+    right:-510px
 }
 
 
@@ -46,4 +57,11 @@ div{
     background: rgb(124, 84, 47);
 }
 
+button{
+    position: relative;
+    text-align:center;
+    top: -200px;
+    right:-485px;
+    font-size:30px;
+}
 
